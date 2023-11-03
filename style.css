@@ -55,8 +55,9 @@ body {
   .chatbots {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding:0;
-    grid-column: 150px;
+    gap: 100px;
   }
 
   .balao-fala-site {
@@ -103,17 +104,32 @@ body {
     margin:0;
     padding: 0;
     size: 100%vh;
+    display: flex;
+    justify-content: center;
   }
-
-  .iconewats {
-    width:100px;
-    height:auto;
-  }  
 
   footer {
     background-color: #B841D9;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+  }
+
+  .contatos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .watsDani {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .watsSil {
+    display: flex;
+    justify-content:center;
+    align-items: center;
   }
   
