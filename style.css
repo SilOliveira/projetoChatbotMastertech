@@ -15,6 +15,7 @@ body {
     background-image: url(./img/back6.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
   }
   
@@ -33,10 +34,17 @@ body {
 
   .container-textoprojeto {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .comoFizemos {
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .chatbots {
@@ -126,7 +134,7 @@ body {
     font-family: 'Playpen Sans', sans-serif;
     font-weight: 700;
   }
-
+   
   .watsSil {
     display: flex;
     justify-content:center;
