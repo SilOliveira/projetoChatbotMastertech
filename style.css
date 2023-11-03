@@ -25,6 +25,10 @@ body {
     text-align: center;
     padding: 20px 0;
   }
+  header h1 {
+    font-family: 'Archivo Black',sans-serif;
+    font-size: 3rem;
+    }
   
   main {
     margin: 0 auto;
@@ -39,6 +43,15 @@ body {
     align-items: center;
   }
 
+  .container-textoprojeto h2 {
+    font-size: 2rem;
+  }
+  .container-textoprojeto p {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #100e40;
+  }
+
   .comoFizemos {
     font-size: 1.5rem;
     display: flex;
@@ -49,6 +62,11 @@ body {
     margin: 20px;
     background-color: #0070c970;
     border-radius: 10px;
+  }
+
+  .comoFizemos h2 {
+    font-family: 'Archivo Black',sans-serif;
+    font-size: 2rem;
   }
 
   .chatbots {
