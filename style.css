@@ -8,7 +8,7 @@ Paletas:
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,24 +25,7 @@ body {
     padding: 20px 0;
   }
   
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
   main {
-    /* max-width: 800px; */
     margin: 0 auto;
     padding: 0 px;
     color:#fff;
@@ -50,14 +33,19 @@ body {
 
   .container-textoprojeto {
     display: flex;
-
   }
+
+  .comoFizemos {
+    font-size: 1.5rem;
+  }
+
   .chatbots {
     display: flex;
     align-items: center;
     justify-content: center;
     padding:0;
     gap: 20px;
+    size: 100%;
   }
 
   .balao-fala-site {
@@ -94,10 +82,20 @@ body {
     color: #0070c9; /* Cor do link */
     text-decoration: none;
   }
+  .link-vshape {
+    font-family: 'Playpen Sans', sans-serif;
+    /* Outros estilos de fonte e estilos de texto, se necessário */
+    font-weight: 700;
+  }
+    #robochats {
+      width:30%;
+      height: auto;
+  }
 
-  #robochats {
-    width:30%;
-    height: auto;
+  .link-whatsapp{
+    font-family: 'Playpen Sans', sans-serif;
+    /* Outros estilos de fonte e estilos de texto, se necessário */
+    font-weight: 700;
   }
 
   .container-baner {
@@ -125,11 +123,26 @@ body {
     display: flex;
     justify-content:center;
     align-items: center;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 700;
   }
 
   .watsSil {
     display: flex;
     justify-content:center;
     align-items: center;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 700;
+  }
+  .faleconosco {
+    font-size: 20px;
+    color:#3703A6;
+    font-weight: 600;
+  
+  }
+  .direitosreservados {
+    border-top: 2px solid #100e40;
+    padding: 0;
+    margin-top: 20% 0;
   }
   
