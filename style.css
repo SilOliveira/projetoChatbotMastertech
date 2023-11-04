@@ -64,20 +64,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin: 20px;
     padding: 20px;
-    /* font-family: 'Sarala',sans-serif; */
+    
   }
 
   .como-fizemos-borda h2 {
     font-family: 'Sarala',sans-serif;
     font-size: 2rem;
+    text-align:center;
   }
 
   .como-fizemos-borda p {
     font-family: 'Sarala',sans-serif;
-    font-size: 1rem ;
+    font-size: 1.2rem;
+    text-align:left;
     padding: 10px;
   }
 
