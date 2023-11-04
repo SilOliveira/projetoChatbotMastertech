@@ -41,6 +41,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 20px;
     padding: 20px;
  }
@@ -61,6 +62,7 @@ body {
 
   .comoFizemos {
     font-size: 1.5rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,6 +103,7 @@ body {
   .balao-fala-site a {
     color: #0070c9; /* Cor do link */
     text-decoration: none;
+    text-align: center;
   }
 
   .balao-fala-wats {
@@ -118,11 +121,13 @@ body {
   .balao-fala-wats a {
     color: #0070c9; /* Cor do link */
     text-decoration: none;
+    text-align: center;
   }
   .link-vshape {
     font-family: 'Playpen Sans', sans-serif;
     /* Outros estilos de fonte e estilos de texto, se necessário */
     font-weight: 700;
+    text-align: center;
   }
     #robochats {
       width:30%;
@@ -138,6 +143,7 @@ body {
     font-family: 'Playpen Sans', sans-serif;
     /* Outros estilos de fonte e estilos de texto, se necessário */
     font-weight: 700;
+    text-align: center;
   }
 
   .container-baner {
