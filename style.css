@@ -41,7 +41,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    margin: 20px;
+    padding: 20px;
+ }
 
   .container-textoprojeto h2 {
     font-size: 2rem;
@@ -121,6 +123,11 @@ body {
       width:30%;
       height: auto;
   }
+
+  /* .container-baner {
+    display: fle;
+    height: 80%vh;
+  } */
 
   .link-whatsapp{
     font-family: 'Playpen Sans', sans-serif;
