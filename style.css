@@ -101,8 +101,8 @@ body {
   }
 
   .balao-fala-site {
-    height: 130px;
-    width: 130px;
+    /* height: 130px;
+    width: 130px; */
     margin-top: 200px;
     position: relative;
     display: inline-block;
@@ -119,8 +119,8 @@ body {
   }
 
   .balao-fala-wats {
-    height: 130px;
-    width: 130px;
+    /* height: 130px;
+    width: 130px; */
     margin-bottom: 200px;
     position: relative;
     display: inline-block;
