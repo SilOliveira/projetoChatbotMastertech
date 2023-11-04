@@ -8,15 +8,13 @@ Paletas:
 
 
 body {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(./img/back6.jpeg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  box-sizing: border-box;
+  background-image: url(./img/back6.jpeg);    background-size:cover;    background-repeat: no-repeat;
+  background-attachment: fixed;
   }
   
   header {
@@ -25,6 +23,7 @@ body {
     text-align: center;
     padding: 20px 0;
   }
+
   header h1 {
     font-family: 'Archivo Black',sans-serif;
     font-size: 3rem;
@@ -44,7 +43,7 @@ body {
     text-align: center;
     margin: 20px;
     padding: 20px;
- }
+  }
 
   .container-textoprojeto h2 {
     font-size: 2rem;
@@ -60,24 +59,36 @@ body {
     border: 2px solid #B841D9;
   }
 
-  .comoFizemos {
-    font-size: 1.5rem;
-    text-align: center;
+  .como-fizemos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    text-align: center;
     margin: 20px;
-    background-color: #0070c970;
-    border-radius: 10px;
+    padding: 20px;
+    /* font-family: 'Sarala',sans-serif; */
   }
 
-  .comoFizemos h2 {
-    font-family: 'Archivo Black',sans-serif;
+  .como-fizemos-borda h2 {
+    font-family: 'Sarala',sans-serif;
     font-size: 2rem;
   }
 
+  .como-fizemos-borda p {
+    font-family: 'Sarala',sans-serif;
+    font-size: 1rem ;
+    padding: 10px;
+  }
+
+  .como-fizemos-borda {
+    padding: 10px;
+    background-color: #3C35F270;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+         
   .chatbots {
     display: flex;
     align-items: center;
@@ -94,14 +105,13 @@ body {
     position: relative;
     display: inline-block;
     padding: 10px;
-    background-color: #f0f0f0; /* Cor de fundo do balão */
-    border: 10px solid #B841D9; /* Borda do balão */
-    border-radius: 10px; /* Borda arredondada */  
-      
+    background-color: #f0f0f0;
+    border: 10px solid #B841D9;
+    border-radius: 10px;
   }
 
   .balao-fala-site a {
-    color: #0070c9; /* Cor do link */
+    color: #0070c9;
     text-decoration: none;
     text-align: center;
   }
@@ -113,46 +123,45 @@ body {
     position: relative;
     display: inline-block;
     padding: 10px;
-    background-color: #f0f0f0; /* Cor de fundo do balão */
-    border: 10px solid #B841D9; /* Borda do balão */
-    border-radius: 10px; /* Borda arredondada */  
+    background-color: #f0f0f0;
+    border: 10px solid #B841D9;
+    border-radius: 10px;
   }
 
   .balao-fala-wats a {
-    color: #0070c9; /* Cor do link */
+    color: #0070c9;
     text-decoration: none;
     text-align: center;
   }
+
   .link-vshape {
+    font-size: 1rem;
     font-family: 'Playpen Sans', sans-serif;
-    /* Outros estilos de fonte e estilos de texto, se necessário */
     font-weight: 700;
     text-align: center;
   }
-    #robochats {
-      width:30%;
-      height: auto;
+
+  #robochats {
+    width:30%;
+    height: auto;
   }
 
-  /* .container-baner {
-    display: fle;
-    height: 80%vh;
-  } */
-
-  .link-whatsapp{
+  .link-whatsapp {
+    font-size: 1rem;
     font-family: 'Playpen Sans', sans-serif;
-    /* Outros estilos de fonte e estilos de texto, se necessário */
     font-weight: 700;
     text-align: center;
   }
 
   .container-baner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
+    display: flex;
+    background-image:url(./img/fotomacht.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    margin: 20px;
   }
-
+      
   .botaomacht {
     background-color:#22CCF2;
     color:black;
@@ -173,7 +182,8 @@ body {
   .contatos {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    margin:30px;
   }
 
   #botaowats:hover {
@@ -198,12 +208,14 @@ body {
     font-weight: 700;
     gap:10px;
   }
+
   .faleconosco {
     font-size: 20px;
     color:#3703A6;
     font-weight: 600;
   
   }
+
   .direitosreservados {
     border-top: 2px solid #100e40;
     padding: 0;
@@ -215,4 +227,6 @@ body {
       font-size: 14px;
       width: 100%;
     }
+
+    
   }
