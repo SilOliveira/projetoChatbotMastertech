@@ -147,11 +147,20 @@ body {
   }
 
   .container-baner {
-    margin:0;
-    padding: 0;
-    size: 100%vh;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  }
+
+  .botaomacht {
+    background-color:#22CCF2;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
   }
 
   footer {
@@ -167,12 +176,18 @@ body {
     gap: 100px;
   }
 
+  #botaowats:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+  }
+
   .watsDani {
     display: flex;
     justify-content:center;
     align-items: center;
     font-family: 'Playpen Sans', sans-serif;
     font-weight: 700;
+    gap:10px;
   }
    
   .watsSil {
@@ -181,6 +196,7 @@ body {
     align-items: center;
     font-family: 'Playpen Sans', sans-serif;
     font-weight: 700;
+    gap:10px;
   }
   .faleconosco {
     font-size: 20px;
