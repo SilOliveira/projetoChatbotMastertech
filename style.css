@@ -161,6 +161,7 @@ body {
   }
 
   #imagem-fundo-banner {
+    display: block;
     width: 85%;
     height: auto;
     padding: 20px;
@@ -169,15 +170,19 @@ body {
     
   }   
 
-  .container-banner-button {
+  /* .container-banner-button {
     margin:30px;
     position: absolute; /* Posicionamento absoluto em relação ao container */
-    top: 60%; /* Posicione o botão no centro vertical */
-    left: 20%; /* Posicione o botão no centro horizontal */
-    transform: translate(-50%, -50%); /* Centralize o botão com base em sua própria largura/altura */
-}
+    /* top: 60%; Posicione o botão no centro vertical */
+    /* left: 20%; Posicione o botão no centro horizontal */
+    /* transform: translate(-50%, -50%); Centralize o botão com base em sua própria largura/altura */
+/* } */
     
   .botaomacht {
+    position: absolute;
+    top:60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     display: block;
     background-color:#22CCF2;
     color:black;
@@ -187,6 +192,7 @@ body {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    z-index: 1;
     
   }
 
