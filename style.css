@@ -171,8 +171,8 @@ body {
  
   .botaomacht {
     position: absolute;
-    top:60%;
-    left: 60%;
+    top:55%;
+    left: 65%;
     transform: translate(-50%, -50%);
     display: block;
     background-color:#22CCF2;
