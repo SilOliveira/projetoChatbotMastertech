@@ -28,9 +28,11 @@ body {
     font-family: 'Archivo',sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    margin: 20px;
-    padding: 10px;
-    }
+  }
+
+  header h2 {
+    margin: 10px;
+  }
   
   main {
     margin: 0 auto;
