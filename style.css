@@ -28,6 +28,8 @@ body {
     font-family: 'Archivo',sans-serif;
     font-size: 3rem;
     font-weight: 700;
+    margin: 20px;
+    padding: 10px;
     }
   
   main {
@@ -193,6 +195,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     z-index: 1;
+    max-width: 40%;
     
   }
 
@@ -252,11 +255,16 @@ body {
     margin-top: 20% 0;
   }
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     body {
       font-size: 14px;
       width: 100%;
-    }
+     }
+       
+    .botaomacht {
+
+      width: 80%;
+    } */
 
     
-  }
+  /* } */
