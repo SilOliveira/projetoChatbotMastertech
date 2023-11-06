@@ -156,26 +156,24 @@ body {
 
   .container-baner {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 30px;
   }
+
+    .container-baner-texto {
+      max-width: 80%;
+      font-family: 'Sarala', sans-serif;
+    }
 
   #imagem-fundo-banner {
     display: block;
     width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    
+    height: auto; 
   }   
  
   .botaomacht {
-    position: absolute;
-    top:55%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    display: block;
     background-color:#22CCF2;
     color:black;
     padding: 10px 20px;
@@ -186,11 +184,12 @@ body {
     cursor: pointer;
     z-index: 1;
     max-width: 100%;
-      
+     
   }
 
   .botaomacht a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
     text-decoration: none;
   }
 
@@ -251,14 +250,3 @@ body {
     padding: 0;
     margin-top: 20% 0;
   }
-  
-  /* @media (max-width: 768px) {
-    body {
-      font-size: 14px;
-      width: 100%;
-     }
-       
-    .botaomacht {
-
-      width: 80%;
-    } */
