@@ -186,12 +186,18 @@ body {
     cursor: pointer;
     z-index: 1;
     max-width: 100%;
-    
+      
   }
 
   .botaomacht a {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+  }
+
+  .botaomacht:hover {
+    /* transform: scale(1.1); */
+    transition: transform 0.3s;
+    opacity:0.7;
   }
 
   footer {
