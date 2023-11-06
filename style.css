@@ -162,15 +162,19 @@ body {
     margin-bottom: 30px;
   }
 
-    .container-baner-texto {
-      max-width: 80%;
-      font-family: 'Sarala', sans-serif;
-    }
+  .container-baner-texto {
+  max-width: 80%;
+  font-family: 'Sarala', sans-serif;
+  }
+
+  .container-baner-imagem {
+    max-width: 90%;
+  }
 
   #imagem-fundo-banner {
     display: block;
-    width: 100%;
-    height: auto; 
+    max-width: 100%;
+    height: auto;
   }   
  
   .botaomacht {
