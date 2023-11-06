@@ -13,7 +13,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   box-sizing: border-box;
-  background-image: url(./img/back6.jpeg);    background-size:cover;    background-repeat: no-repeat;
+  background-image: url(./img/back6.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   }
   
@@ -90,7 +92,6 @@ body {
     border-radius: 10px;
   }
 
-         
   .chatbots {
     display: flex;
     align-items: center;
@@ -255,6 +256,3 @@ body {
 
       width: 80%;
     } */
-
-    
-  /* } */
