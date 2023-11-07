@@ -1,3 +1,0 @@
-# projetoChatbotMastertech
-
-fazendo o deploy....
